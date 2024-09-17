@@ -47,3 +47,12 @@ function App() {
 
 // Exporting the App component to be used in other parts of the application
 export default App;
+
+/*
+In this code:
+1. We import the React library to use its features.
+2. We define a functional component `Welcome` that displays a greeting.
+3. We define a class component `Goodbye` that displays a farewell message and uses internal state.
+4. We create an `App` component that renders both `Welcome` and `Goodbye`.
+5. We export the `App` component for use in other parts of the application.
+*/
