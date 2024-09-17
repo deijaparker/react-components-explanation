@@ -32,3 +32,15 @@ class Goodbye extends React.Component {
     );
   }
 }
+
+// App Component
+// The App component uses the Welcome and Goodbye components.
+// It demonstrates how components can be composed together.
+function App() {
+  return (
+    <div>
+      <Welcome name="Deija" /> {/* Using the functional component */}
+      <Goodbye name="Deija" /> {/* Using the class component */}
+    </div>
+  );
+}
