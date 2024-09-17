@@ -56,3 +56,6 @@ In this code:
 4. We create an `App` component that renders both `Welcome` and `Goodbye`.
 5. We export the `App` component for use in other parts of the application.
 */
+
+// Note: To see this in action, you would need to integrate this code into a React application,
+// typically using tools like Create React App to set up the environment.
