@@ -12,3 +12,23 @@ function Welcome(props) {
   // Props are inputs passed to the component, in this case, `name`
   return <h1>Hello, {props.name}!</h1>;
 }
+
+// Class Component
+// Class components are ES6 classes that extend from React.Component and have a render method.
+// They can hold internal state and have lifecycle methods.
+class Goodbye extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { message: "Goodbye!" }; // Initial state
+  }
+
+  render() {
+    // Accessing props and state to render the UI
+    return (
+      <div>
+        <h1>{this.state.message}</h1>
+        <p>See you soon, {this.props.name}!</p>
+      </div>
+    );
+  }
+}
